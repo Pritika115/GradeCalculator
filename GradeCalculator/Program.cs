@@ -14,7 +14,7 @@ namespace GradeCalculator
         {
             List<int> marks = new List<int>();
             InputMarks(marks);
-            CalculateResults(marks); // No need to pass variables
+            CalculateResults(marks); 
         }
 
         static void InputMarks(List<int> studentMarks)
