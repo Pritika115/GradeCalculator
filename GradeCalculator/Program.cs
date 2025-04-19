@@ -107,7 +107,7 @@ namespace GradeCalculator
             {
                 // Handle file errors
                 Console.WriteLine("Error reading file: " + e.Message);
-                Environment.Exit(0);
+                System.Environment.Exit(0);
             }
         }
         /*
